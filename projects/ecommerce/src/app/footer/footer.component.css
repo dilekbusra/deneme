@@ -1,0 +1,87 @@
+
+ /* footer codes */ 
+
+ .footer-top-line {
+    display: flex;
+    width: 100%;
+    place-content: center;
+    background: White;
+    margin-top: 20px
+  }
+ 
+  .footer-top-line-content {
+    padding: 20px 0
+  }
+ 
+  .footer-top-line ul {}
+ 
+  .footer-top-line ul li {
+    float: left
+  }
+ 
+  .footer-top-line ul li:nth-child(2n) {
+    margin-right: 40px
+  }
+ 
+  .footer-top-line ul li:nth-child(2n+1) {
+    margin-right: 5px
+  }
+ 
+  .footer-top-line ul li i {
+    font-size: 30px;
+    margin-top: 5px
+  }
+ 
+  .footer-top-line p {
+    margin: 0;
+    padding-inline-start: 2px;
+  }
+ 
+  .footer-mid {
+    text-align: center;
+    margin-top: 20px
+  }
+ 
+  .footer-logo {
+    width: 100%;
+    text-align: center
+  }
+ 
+  .footer-logo {
+    width: 275px
+  }
+ 
+  .footer-mid a,
+  .footer-mid span {
+    font-size: 12px
+  }
+ 
+  .footer {
+    background-color: #e9eef1;
+    padding: 1px 15px
+  }
+ 
+  .footer-bottom {
+    background: black;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    padding: 30px 20px
+  }
+ 
+  .footer-bottom a {
+    color: white
+  }
+ 
+  .footer-bottom ul li {
+    float: left
+  }
+ 
+  .footer-bottom ul li::before {
+    content: '·';
+    color: red;
+    padding: 8px;
+  }
+ 
+  .social-media .social-icons{justify-content: center; display: flex;}
+  .social-media .social-icons ul li{float:left; margin-right: 7px;}

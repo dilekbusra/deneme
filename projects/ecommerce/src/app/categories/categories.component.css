@@ -1,0 +1,7 @@
+.vertical-menu {
+    padding-inline-start: 15px;
+  }
+  .vertical-menu ul li {
+    padding: 15px 0 0 5px;
+    border-bottom: 1px solid lightgray
+  }

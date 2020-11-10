@@ -1,0 +1,102 @@
+ /*header */ 
+ .header-top {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    float: right;
+    font-size: 12px
+  }
+ 
+  .header-top a {
+    color: gray;
+    font-weight: 500
+  }
+ 
+  .header-top-right {
+    float: right;
+    margin: 10px 0 5px 0
+  }
+ 
+  .header-top-right li {
+    float: left;
+    margin-right: 17px
+  }
+ 
+  .header-mid {
+    border-bottom: 1px solid gray;
+  }
+ 
+  .header-mid-row {
+    padding: 15px 0
+  }
+ 
+  .header-mid-right {
+    font-size: 14px; 
+    float: right;
+  }
+ 
+  .header-mid-right ul li {
+    display: grid;
+    float: left;
+    text-align: center;
+    margin-right: 20px
+  }
+ 
+  .header-mid-right ul li a {
+    color: black
+  }
+ 
+  .header-center-form {
+    background-color: #d95e2b;
+    border-radius: 50px;
+    width: 100%;
+    padding: 2px;
+    margin: 0
+  }
+ 
+  .header-mid-center .header-center-form button {
+    background: transparent;
+    float: right;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px 3px 0px;
+    width:15%
+  }
+ 
+  .header-mid-center .header-center-form button:focus {
+    outline: none
+  }
+ 
+  .header-mid-center .header-center-form input {
+    width: 70%;
+    height: 32px;
+    font-size: 14px;
+    padding: 3px 10px;
+    border: transparent;
+    border-left: 1px solid gray
+  }
+ 
+  .header-mid-center .header-center-form input::placeholder {
+    font-size: 11px
+  }
+ 
+  .header-mid-center .header-center-form input:focus {
+    outline: none
+  }
+ 
+  .header-mid-center .header-center-form select {
+    float: left;
+    height: 32px;
+    border-radius: 50px 0 0 50px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 1px 5px;
+    border: transparent;
+    font-weight: 600
+  }
+ 
+  .header-mid-center .header-center-form select:focus {
+    outline: none
+  }
+ 
+  /* header end */

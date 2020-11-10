@@ -1,0 +1,49 @@
+<h3 *ngIf="products">{{title}}</h3>
+
+<form  style="padding-inline-start: 12px; padding-inline-end: 25px;" action="">
+    <div class="form-group">
+        <input [(ngModel)]="filterText"  type="text" class="form-control" id="productName" name="productName" placeholder="Aramak istediğiniz ürünü giriniz.">
+      </div>
+</form>
+<div  class="row  ml-2 mr-2 main-product-2">
+    <div *ngFor="let product of products | productFilter:filterText" class="col-md-3 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+                <a href="#">
+                    <img class="pic-1" [src]="product.imageUrl">
+                    <img class="pic-2" [src]="product.imageUrl">
+                </a>
+                <ul class="social">
+                    <li><a href="" data-tip="Gözat"><i class="fa fa-search"></i></a></li>
+                    <li><a href="" data-tip="Favorilere Ekle"><i class="fa fa-shopping-bag"></i></a>
+                    </li>
+                    <li><a href="" data-tip="Sepete Ekle"><i class="fa fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+                <span class="product-new-label">İndirim</span>
+                <span class="product-discount-label">20%</span>
+            </div>
+            <ul class="rating">
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star disable"></li>
+            </ul>
+            <div class="product-content">
+                <h3 class="title"><a href="#">{{product.productName}}</a></h3>
+                <div class="price"> {{product.price}}
+                    <span>20.00 TL</span>
+                </div>
+                <a class="add-to-cart" href="">+ Sepete Ekle</a>
+            </div>
+        </div>
+    </div>
+   
+   
+    
+  
+
+   
+
+</div>

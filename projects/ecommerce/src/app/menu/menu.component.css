@@ -1,0 +1,33 @@
+.main-menu,
+.product-main-menu {
+  display: flex;
+}
+.main-menu ul,
+.product-main-menu ul {
+  width: 100%;
+  background-color: #f6efec;
+  padding: 0;
+}
+.menu-categories {
+  width: 100%;
+  background: #e5d2c6;
+  margin: 0;
+  font-weight: 600;
+  font-size: 19px;
+  padding-inline-start: 4px;
+  height: 35px;
+}
+.main-menu ul li,
+.product-main-menu ul li {
+  float: left;
+  margin: 0 28px;
+  height: 35px;
+  position: relative;
+  top: 4px;
+  font-size: 15px;
+}
+.main-menu ul li a,
+.product-main-menu ul li a {
+  color: black;
+}
+
